@@ -1,0 +1,105 @@
+﻿<Window x:Class="ZadachaWPF15._1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZadachaWPF15._1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="800">
+    <Grid>
+        <FlowDocumentScrollViewer>
+            <FlowDocument>
+                <Paragraph FontFamily="Arial" FontSize="35" FontWeight="ExtraBlack">
+                    <Floater HorizontalAlignment="Left" Width="100">
+                        <BlockUIContainer>
+                            <Image Source="Data/ps.png"/>
+                        </BlockUIContainer>
+                    </Floater>
+                    PlayStation 5
+                </Paragraph>
+                <Paragraph FontFamily="Arial" FontSize="20" FontWeight="Bold">
+                    PLAY HAS NO LIMITS
+                </Paragraph>
+                <List MarkerStyle="Circle">
+                    <ListItem>
+                        <Paragraph FontFamily="Arial">
+                            <Bold>Молниеносная скорость</Bold> - ультраскоростной SSD обеспечивает молниеносную загрузку данных
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph FontFamily="Arial">
+                            <Bold>Захватывающее погружение</Bold> - тактильная отдача, адаптивные триггеры и 3D-звук усиливают погружение
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph FontFamily="Arial">
+                            <Bold>Потрясающие игры</Bold> нового поколения для PlayStation
+                        </Paragraph>
+                    </ListItem>
+                </List>
+                <Table>
+                    <Table.Columns>
+                        <TableColumn/>
+                        <TableColumn Width="50"/>
+                        <TableColumn/>
+                    </Table.Columns>
+                    <TableRowGroup>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    <Floater HorizontalAlignment="Left" Width="180">
+                                        <BlockUIContainer>
+                                            <Image Source="Data/ps1.png"/>
+                                        </BlockUIContainer>
+                                    </Floater>
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    <Floater HorizontalAlignment="Left" Width="180">
+                                        <BlockUIContainer>
+                                            <Image Source="Data/ps2.png"/>
+                                        </BlockUIContainer>
+                                    </Floater>
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph FontFamily="Arial" FontSize="20">
+                                    <Hyperlink NavigateUri="https://www.playstation.com/ru-ru/ps5/">Цифровое издание PS5</Hyperlink>
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph FontFamily="Arial" FontSize="20">
+                                    <Hyperlink NavigateUri="https://www.playstation.com/ru-ru/ps5/">Консоль PS5</Hyperlink>
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph FontFamily="Arial">
+                                    Воспроизводите игры для PS5 и PS4 с дисков Blue-ray. Вы также можете загружать цифровые версии игр для PS5 и PS4 из PlayStation Store.
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph FontFamily="Arial">
+                                    Цифровое издание PS5 - это версия консоли PS5 без дисковода. Войдите в свою учетную запись PlayStation Network и перейдите в PlayStation Store, чтобы приобрести и загрузить цифровые версии игр для PS5 и PS4.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                    </TableRowGroup>
+                </Table>
+            </FlowDocument>
+        </FlowDocumentScrollViewer>
+    </Grid>
+</Window>
